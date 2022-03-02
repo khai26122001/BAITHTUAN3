@@ -1,0 +1,41 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 960;
+    margin: auto;
+}
+
+#tbl
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tbl th, #tbl td
+{
+    border: 1px solid black;
+    height: 3px;
+}
+
+#tbl thead tr:first-child
+{
+    background-color: gray;
+}
+
+/*
+#tbl td:nth-child(1)
+{
+    background: blue;
+    text-align: center;
+}
+*/
+
+#tbl tr:nth-child(2n+1)
+{
+    background-color: rgb(212, 185, 149);
+}
+
+#tbl tbody tr:last-child
+{
+    background-color: lightslategray;
+}

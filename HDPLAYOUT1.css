@@ -1,0 +1,82 @@
+#
+{
+    padding: 0px; margin: auto;
+}
+.wrapper
+    {
+        height: 700px;
+        width: 1089px;
+        background-color: bisque;
+    }
+header
+{
+    height: 150px;
+    width: 1089px;
+    background-color: blue;
+}
+nav
+{
+    height: 50px;
+    width: 1089px;
+    background-color: rgb(36, 143, 84);
+}
+.content
+{
+    height: 200px;
+    width: 1089px;
+    background-color: rgb(173, 116, 42);
+}
+footer
+{
+    height: 200px;
+    width: 1089px;
+    background-color: rgb(173, 50, 81);
+}
+aside {
+    height: 100%;
+    width: 40%;
+    background-color: rgb(103, 132, 155);
+    float: left;
+}
+
+section {
+    height: 200px;
+    width: 60%;
+    background-color: rgb(59, 165, 38);
+    float: left;
+}
+
+.menu li {
+    height: 100%;
+    width: 200px;
+    float: left;
+    list-style-type: none;
+    line-height: 50px;
+    text-indent: 15px;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+}
+
+.menu li:hover {
+    background-color: burlywood;
+}
+
+li:hover>a {
+    font-style: italic;
+    font-weight: bold;
+    color: yellow;
+}
+
+.menu li .submenu {
+    display: none;
+    position: absolute;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
